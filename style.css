@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+/* start nav */
+.logo {
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    top: 0px;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+    padding: 10px;
+    font-weight: bold;
+}
+.nav-left a:hover {
+    border-bottom: 2px solid rgb(112, 110, 110);
+    transition: all 0.5s;
+}
+
+.nav-right {
+    position: relative;
+    left: 800px;
+    top: 20px;
+}
+
+.nav-right .text {
+    position: absolute;
+    color: rgb(112, 110, 110);
+    top: 10px;
+    right: 43px;
+    font-weight: bold;
+    font-size: 23px;
+}
+/* end nav */
+
+/* start section one */
+
+.sec-one {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 550px;
+    bottom: 100px;
+}
+
+.text-one {
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 28px;
+    margin-left: 40px;
+    margin-bottom: 380px;
+    color: rgb(75, 73, 73);
+}
+
+ .head {
+    /* display: flex; */
+    margin-bottom: 10px;
+    font-size: 40px;
+ }
+ span {
+    color:purple;
+ }
+
+.img {
+    position: relative;
+    height: 500px;
+    bottom: 300px;
+    left: 20px;
+}
+
+.img .deliver {
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+    left: 170px;
+    top: 15px
+}
+
+.img .cloud {
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 520px;
+    bottom: 10px;
+}
+.img .wave {
+    position: absolute;
+    z-index: 3;
+    top: 620px;
+    right: 450px;
+    bottom: 1px;
+    left: px; 
+}
+
+/* end section one */
+
+/* start setion two */
+
+.sec-two {
+    width: 800px;
+}
+.sec-two .img-one {
+    position: relative;
+    left: 300px;
+    right: 30px;
+    top: 80px;
+}
+.sec-two .img-two {
+    position: absolute;
+    top: 1025px;
+    right: 40px;
+    bottom: 950px;
+    left: 150px;
+}
+.sec-two .img-two .text-one {
+    text-align: center;
+    margin-right: 1000px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(139, 138, 138);
+}
+.sec-two .img-two .text-one .one {
+    padding: 15px;
+    color: rgb(63, 63, 63);
+}
+
+.sec-two .img-three {
+    position: absolute;
+    top: 1150px;
+    right: 50px;
+    bottom: 50px;
+    left: 690px;
+}
+.sec-two .img-three .text-two {
+    text-align: center;
+    color:rgb(85, 82, 82);
+    margin-right: 400px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sec-two .img-three .text-two .one {
+    padding: 15px;
+}
+.sec-two .img-four {
+    position: relative;
+    left: 50px;
+}
+.sec-two .img-four .k {
+    position: absolute;
+    z-index: 2;
+    font-size: 34px;
+    color: white;
+    TOP: 160px;
+    left: 130px;
+}
+
+.sec-two .img-five {
+    position: absolute;
+    top: 1550px;
+    right: 50px;
+    bottom: 50px;
+    left: 1170px;
+}
+.sec-two .img-five .text-three {
+    text-align: center;
+    margin-top: 20px;
+}
+.sec-two .img-five .text-three .one {
+    padding: 15px;
+}
+
+/* end sec two */
+
+/* start sec three */
+
+.sec-three {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 250px;
+    position: relative;
+    margin-right: 250px;
+}
+.sec-three .two {
+    margin-left: 100px;
+}
+
+/* .sec-three {
+    position: relative;
+    margin-right: 200px;
+} */
+
+.sec-three .three {
+    display: flex;
+}
+
+.sec-three .four {
+    position: absolute;
+    margin-top: 450px;
+}
+
+.sec-three .one {
+    height: 300px;
+    margin-top: 190px;
+}
+
+.sec-three .three .three {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+section .four {
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    /* color: rgb(131, 129, 129); */
+}
+section .four .four-one {
+    padding: 15px;
+    color: rgb(68, 66, 66);
+}
+section .four .four-two {
+    padding: 10px;
+    color: rgb(122, 121, 121);
+}
+
+/* end section three */
+
+
+/* start footer */
+
+footer {
+    background-image: url("IMG_20220704_104601.png");
+    background-position: top;
+    position: relative;
+    height: 600px;
+}
+.footer-img {
+    display: flex;
+    margin-left: 780px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.button{
+    display: flex;
+    position: absolute;
+    border-width: 40px;
+    border: 0;
+    top: 400px;
+    text-shadow: 1px 1px 1px rgb(110, 109, 109);
+    background-color: white;
+}
+
+.button .button-one {
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    left: 100px;
+}
+.button .button-one .button-img {
+    align-items: center;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+.button .button-one .text {
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+.button .button-one:hover {
+    background-color:rgb(80, 90, 90);
+    transition: all 0.5s;
+}
+.button .button-two {
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    left: 300px;
+}
+.button .button-two .button-img {
+    align-items: center;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+.button .button-two .text {
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+.button .button-two:hover {
+    background-color:rgb(80, 90, 90);
+    transition: all 0.5s;
+}
+
+
+
+.footer-icon {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 60px;
+    left: 80px;
+}
+.footer-icon .instagram {
+    padding: 8px;
+}
+.footer-icon .whatsapp {
+    padding: 8px;
+}
+.footer-icon .facebook {
+    padding: 8px;
+}
+
+
+
+footer .footer-end {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    left: 12px;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer .footer-end a {
+    text-decoration: none;
+    margin-left: 80px;
+    color: white;
+}
+footer .footer-end a:hover {
+    border-bottom: 2px solid white;
+    transition: all 0.5s;
+}
+
+/* end footer */
